@@ -23,5 +23,3 @@ CLASSES =  {
 
 def randomStudent(period):
     return CLASSES[period][random.randint(0,len(CLASSES[period])-1)]
-
-print randomStudent(8)
